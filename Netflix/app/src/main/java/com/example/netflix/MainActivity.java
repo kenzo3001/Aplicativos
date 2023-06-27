@@ -3,7 +3,7 @@ package com.example.netflix;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-
+//teste comentario
 public class MainActivity extends AppCompatActivity {
 
     @Override
