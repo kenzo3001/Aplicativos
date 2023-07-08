@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.principal.PrincipalFragment">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="374dp"
+        android:layout_height="364dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="monospace"
+        android:text="Não se preocupe com a complexidade do sistema de gestão de tráfego pago - nós cuidamos de tudo para você. Desde a pesquisa de palavras-chave até a criação dos anúncios e o acompanhamento dos resultados, nosso time dedicado está aqui para simplificar o processo e garantir que você obtenha resultados reais.  Deixe-nos ajudá-lo a expandir sua presença online, gerar leads qualificados e aumentar suas vendas. Com nossa empresa de gestão de tráfego pago, você estará um passo à frente da concorrência, conquistando o sucesso que você merece.  Não perca mais tempo! Entre em contato conosco hoje mesmo e descubra como podemos impulsionar seu negócio através do tráfego pago. Estamos prontos para transformar seus sonhos em realidade digital. Vamos começar essa jornada juntos! 💥💼🚀"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

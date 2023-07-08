@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.servicos.ServicosFragment" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Sistema de gestão de trafego pago"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Um sistema de gestão de tráfego pago refere-se a um conjunto de estratégias e ferramentas utilizadas para controlar e otimizar o fluxo de tráfego pago em campanhas de marketing digital. Esse sistema é amplamente utilizado por empresas e profissionais de marketing que desejam direcionar o tráfego para seus sites ou páginas de destino, por meio de anúncios pagos em plataformas como Google Ads, Facebook Ads e outras. Com o sistema de gestão de tráfego pago, é possível segmentar o público-alvo, definir orçamentos, escolher palavras-chave relevantes, monitorar métricas de desempenho e realizar ajustes contínuos para maximizar o retorno sobre o investimento em publicidade. Ao implementar um sistema eficaz de gestão de tráfego pago, as empresas podem alcançar um público altamente direcionado, aumentar a visibilidade da marca, gerar leads qualificados e impulsionar as vendas."
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Indicadores de desempenho"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Os indicadores de desempenho em um sistema de gestão de tráfego pago são fundamentais para avaliar a eficácia e o retorno sobre o investimento das campanhas. Alguns dos principais indicadores incluem:  Custo por Clique (CPC): Mede o valor médio pago por cada clique nos anúncios. Um CPC mais baixo indica que a campanha está sendo eficiente em atrair cliques com menor custo.  Taxa de Conversão: Indica a porcentagem de visitantes que realizaram uma ação desejada, como uma compra, preenchimento de formulário ou inscrição. Uma taxa de conversão mais alta indica que os anúncios estão atraindo um público qualificado, entre outros..."
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+</androidx.constraintlayout.widget.ConstraintLayout>
