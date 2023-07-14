@@ -11,9 +11,6 @@ import com.example.jamiltondamasceno.listadetarefas.model.Tarefa;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by jamiltondamasceno
- */
 
 public class TarefaDAO implements ITarefaDAO {
 

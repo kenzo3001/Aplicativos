@@ -12,10 +12,6 @@ import com.example.jamiltondamasceno.listadetarefas.model.Tarefa;
 
 import java.util.List;
 
-/**
- * Created by jamiltondamasceno
- */
-
 public class TarefaAdapter extends RecyclerView.Adapter<TarefaAdapter.MyViewHolder> {
 
     private List<Tarefa> listaTarefas;

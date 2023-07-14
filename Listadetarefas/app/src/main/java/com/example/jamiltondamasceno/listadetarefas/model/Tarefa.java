@@ -2,9 +2,6 @@ package com.example.jamiltondamasceno.listadetarefas.model;
 
 import java.io.Serializable;
 
-/**
- * Created by jamiltondamasceno
- */
 
 public class Tarefa implements Serializable {
 

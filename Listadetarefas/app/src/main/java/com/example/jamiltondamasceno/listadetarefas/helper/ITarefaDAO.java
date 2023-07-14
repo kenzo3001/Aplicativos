@@ -4,9 +4,6 @@ import com.example.jamiltondamasceno.listadetarefas.model.Tarefa;
 
 import java.util.List;
 
-/**
- * Created by jamiltondamasceno
- */
 
 public interface ITarefaDAO {
 
